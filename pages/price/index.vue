@@ -15,7 +15,6 @@
       </div>
 
       <div class="contain_bottom ly js-a fl-r">
-
         <div class="contain_bottom_row ly fl-c">
           <div class="row_text ly fl-c">
             <div class="row_title">专业版</div>
@@ -23,23 +22,25 @@
           </div>
           <div class="row_contain ly fl-c">
             <div class="row_pice ly fl-c">
-              <div class="ly fl-r" >
+              <div class="ly fl-r">
                 <div class="price_icon">￥</div>
-                <div class="price_title">2499</div>
+                <div class="price_title">{{priceMajor}}</div>
                 <div class="price_text">元/年</div>
               </div>
-              <input type="text" />
-
-<!-- <div style="margin-top: 15px;borrder:1px red solid;">
-  <el-input placeholder="请输入内容" v-model="input3" class="input-with-select">
-    <el-select v-model="select" slot="prepend" placeholder="请选择">
-      <el-option label="餐厅名" value="1"></el-option>
-      <el-option label="订单号" value="2"></el-option>
-      <el-option label="用户电话" value="3"></el-option>
-    </el-select>
-    <el-button slot="append" icon="el-icon-search"></el-button>
-  </el-input>
-</div> -->
+              <!-- <input type="text" /> -->
+              <select
+                class="row_select"
+                name="item.value"
+                v-model="selected"
+                @change="changeValue(selected)"
+              >
+                <option
+                  :value="item.id"
+                  class="select_option"
+                  v-for="(item,i) in priceList"
+                  :key="i"
+                >{{item.value}}</option>
+              </select>
 
               <button>注册使用</button>
               <div class="price_detail">免费预约顾问演示</div>
@@ -105,19 +106,32 @@
           </div>
         </div>
 
-<div class="contain_bottom_row ly fl-c">
+        <div class="contain_bottom_row ly fl-c">
           <div class="row_text ly fl-c">
-            <div class="row_title">专业版</div>
+            <div class="row_title">企业业版</div>
             <div class="row_dateil">适用于专业资产管理、成本管控等</div>
           </div>
           <div class="row_contain ly fl-c">
             <div class="row_pice ly fl-c">
               <div class="ly fl-r" style="borrder:1px red solid;">
                 <div class="price_icon">￥</div>
-                <div class="price_title">3999</div>
+                <div class="price_title">{{pricecompany}}</div>
                 <div class="price_text">元/年</div>
               </div>
-              <input type="text" />
+              <!-- <input type="text" /> -->
+               <select
+                class="row_select"
+                name="item.value"
+                v-model="selected2"
+                @change="changeValue2(selected2)"
+              >
+                <option
+                  :value="item.id"
+                  class="select_option"
+                  v-for="(item,i) in priceListCompany"
+                  :key="i"
+                >{{item.value}}</option>
+              </select>
               <button>注册使用</button>
               <div class="price_detail">免费预约顾问演示</div>
             </div>
@@ -193,9 +207,9 @@
                 <div class="price_title" style="line-height:80px;">价格面议</div>
                 <!-- <div class="price_icon">￥</div>
                 <div class="price_title">3999</div>
-                <div class="price_text">元/年</div> -->
+                <div class="price_text">元/年</div>-->
               </div>
-              <input type="text" />
+              <input type="text"  class="row_input" value="不限资产条目"/>
               <button>注册使用</button>
               <div class="price_detail">免费预约顾问演示</div>
             </div>
@@ -259,7 +273,6 @@
             </div>
           </div>
         </div>
-
       </div>
     </div>
 
@@ -276,9 +289,76 @@ export default {
     LjFooter
   },
   data() {
-    return {};
+    return {
+      input: "",
+      priceMajor: 2499,
+      pricecompany:3999,
+      selected: 1,
+      selected2:1,
+      priceList: [
+        {
+          id: "1",
+          value: "0-1000条资产",
+          price: "2499"
+        },
+        {
+          id: "2",
+          value: "1001-3000条资产",
+          price: "4499"
+        },
+        {
+          id: "3",
+          value: "3001-6000条资产",
+          price: "7499"
+        },
+        {
+          id: "4",
+          value: "6001-10000条资产",
+          price: "10499"
+        },
+        {
+          id: "5",
+          value: "不限条数",
+          price: "29999"
+        }
+      ],
+      priceListCompany: [
+        {
+          id: "1",
+          value: "0-1000条资产",
+          price: "3999"
+        },
+        {
+          id: "2",
+          value: "1001-3000条资产",
+          price: "7999"
+        },
+        {
+          id: "3",
+          value: "3001-6000条资产",
+          price: "13999"
+        },
+        {
+          id: "4",
+          value: "6001-10000条资产",
+          price: "19999"
+        },
+        {
+          id: "5",
+          value: "不限条数",
+          price: "39999"
+        }
+      ]
+    };
   },
-  methods: {}
+  methods: {
+    changeValue(value) { 
+      this.priceMajor = this.priceList[value - 1].price;
+    },
+    changeValue2(value){
+      this.pricecompany = this.priceListCompany[value - 1].price;
+    }
+  }
 };
 </script>
 <style scoped src="./index.css"></style>

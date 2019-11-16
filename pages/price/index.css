@@ -70,30 +70,51 @@
 .row_pice{
     border-bottom:1px #C4C4C4 solid;
     /* height: 250px; */
-    padding: 0 60px;
+    padding: 0 40px;
     box-sizing: border-box;
     padding-bottom: 40px;
+    /* border:1px green solid; */
 }
 .price_icon{
-    font-size:25px
+    font-size:25px;
+    /* border:1px red solid; */
 }
 .price_title{
     font-size:48px;
     line-height:80px;
     margin-left:10px;
-
+    /* border:1px red solid; */
 }
 .price_text{
     font-size:25px;
     height: 30px; 
-    margin-top: 30px;
+    margin-top: 35px;
     margin-left: 6px; 
 }
-.row_contain input{
-    width: 210px;
+.row_contain .row_select{
+    box-sizing: border-box;
+    padding: 10px 16px; 
     height: 44px;
+    font-size:16px;
+    color: #626262;
     border:1px #A7A7A7 solid;
     border-radius: 8px;
+}
+
+.row_input{
+    box-sizing: border-box;
+    color: #626262;
+    padding: 0 16px;
+    text-align: center;
+    height: 44px;
+    font-size:16px ;
+    border:1px #A7A7A7 solid;
+    border-radius: 8px;
+}
+.row_contain .row_select .select_option{
+    font-size: 18px ;
+    line-height: 38px;
+    /* color: red; */
 }
 .row_contain button{
     width: 120px;
