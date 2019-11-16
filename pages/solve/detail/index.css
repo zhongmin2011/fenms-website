@@ -1,34 +1,147 @@
-.contain{
-    height: 980px;
-    width: 100%;
-    padding: 100px 260px;
+
+.datail_banner{
+    margin: 0 auto;
+    width: 1440px;
+    height: 400px; 
+}
+.datail_banner_left{
+    width: 760px;
+    flex-direction: column;
+}
+.datail_banner_left h2{
+    font-size: 52px;
+    line-height: 75px;
+    font-weight: 600;
+    color: #444444;
+}
+.datail_banner_left span{
+    padding: 15px 0;
+    box-sizing: border-box; 
+    font-size:24px;
+    line-height: 40px;
+    color: #444444;
+}
+.mian__contain_bg{ 
+    width: 100%; 
+    background-color: #FAFAFA;
+    padding:  60px 0 40px 0;
     box-sizing: border-box;
 }
-.contain_main{
-    width: 700px;
-    height: 180px; 
+.mian__contain{
+    display: flex;
+    flex-direction: column; 
+    width: 1440px;
+    margin: 0 auto; 
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: auto; 
 }
-.contain_main_top{
-    height: 20px;
+.mian__contain h2{
+    font-size: 40px;
+    font-weight: bold;
+    color: #444444;
+    line-height: 55px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
 }
-.line{
-    width: 66px;
-    border-bottom: 2px #4FACFE solid;
-    height: 4px;
+.media__left{
+    width: 440px;
+    height: 100%;
+    display: flex; 
+    flex-direction: column;
 }
-.datail{
-    font-size: 14px;
-    color: #626262;
-    margin-left: 16px;
+
+/* 右侧栏 */
+.media__right{
+    margin-left:40px; 
 }
-.contain_main_title{
-    font-size: 50px;
-    color: #171063;
-    line-height: 90px;
+.img_text{
+    padding: 0 20px;
+    box-sizing: border-box;
+    height: 84px;
+    background-color: #fff;
 }
-.contain_main_text{
-    font-size: 22px;
-    color: #626262;
-    line-height: 30px;
-    text-align: center;
+.img_text_title{
+   font-size: 32px;
+   color: #444444;
+}
+.img_text_price{
+    font-size: 24px;
+    color: #EE834D;
+}
+.media_text_contain{
+ 
+}
+.media_right_title{
+    height: 48px;
+    border:1px #ececec solid;
+    padding: 0 20px;
+    box-sizing: border-box;
+    font-size: 20px;
+    color: #EE834D;
+    font-weight: 700;
+}
+.media_right_contain_text{
+    padding: 27px 20px;
+    box-sizing: border-box;
+    background: #fff;
+    font-size: 17px;
+    color: #444444;
+}
+.h157{
+    height: 157px;
+}
+.fh{
+    line-height: 28px;
+    font-size: 18px;
+} 
+/* 左侧tab栏 */
+.tab-fu{
+    width: 100%;  
+}
+
+.tab_top{ 
+     width: 50%;
+     background-color: rgba(93,206,103,0.3);
+     height: 60px;
+     border-top-left-radius: 20px;
+     border-top-right-radius: 20px;
+     color: #fff;
+     font-size: 20px;
+ }
+ .green{
+    background-color: #5DCE6C; 
+} 
+.tabContent{
+    width: 100%;
+    padding:20px;
+    box-sizing: border-box; 
+    background-color: #fff;
+    /* height: 800px; */
+    overflow: auto;
+    flex: 1; 
+}
+.tabContent_child{
+    width: 100%;
+    margin-bottom: 20px;  
+}
+.tabContent_child_img{
+    display: block;
+}
+.tabContent_child_text{
+    box-sizing: border-box;
+    height: 65px;
+    background: #fff;
+    padding: 0 20px;
+    border: 1px #cecece solid;
+}
+.tabContent_child_text .title{
+    font-size: 18px;
+    font-weight: 600; 
+    color:#444444;
+}
+.tabContent_child_text .price{
+    font-size: 18px;
+    font-weight: 600; 
+    color: #EE834D;
 }
