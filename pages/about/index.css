@@ -1,0 +1,218 @@
+.banner{
+    height: 680px; 
+    width: 100%;  
+}
+.main {
+    width: 1400px;
+    margin: 0 auto;
+    height: 100%;
+  }
+.fl-r {
+    flex-direction: row;
+  }
+  a {
+    text-decoration: none;
+  }
+  .js-c {
+    justify-content: center;
+  }
+  .al-c {
+    align-items: center;
+  }
+  .main_text {
+    height: 235px; 
+    width: 660px;
+  }
+ 
+  .line {
+    border-bottom: 2px #4facfe solid;
+    width: 66px;
+    height: 10px;
+  }
+  .en_text {
+    font-size: 14px;
+    color: #9b9b9b;
+    font-weight: 600;
+    margin-left: 20px;
+    line-height: 20px;
+  }
+  .text {
+    font-size: 22px;
+    color: #9b9b9b;
+    line-height: 28px;
+    margin-top: 20px;
+  }
+  .title {
+    color: #171063;
+    font-size: 50px;
+    line-height: 70px;
+  }
+  .fx-1{
+    flex: 1;
+  }
+  .al-s {
+    align-content: flex-start;
+  }
+  .w100 {
+    width: 100%;
+  }
+  .fl-c {
+    flex-direction: column;
+  }
+  .fl-r {
+    flex-direction: row;
+  }
+  .al-c-c {
+    align-content: center;
+  }
+  .js-c {
+    justify-content: center;
+  }
+  .js-s {
+    justify-content: flex-start;
+  }
+  .js-b{
+    justify-content: space-between;
+  }
+  .swiper-slide {
+    height: 680px;
+    width: 100%;
+  }
+  .banner {
+    width: 100%;
+    height: 680px;
+    background: rgb(100, 114, 128);
+  }
+  .h100 {
+    height: 100%;
+  }
+  .white {
+    color: #fff;
+  }
+  .blue {
+    background-color: #3296fa;
+  }
+
+  .mg-auto{
+      margin:0 auto;
+  }
+
+  /* 介绍 */
+  .introduce{
+      height: 940px;
+      background-color: #F7FBFF;
+      padding: 100px 260px 0px;
+      box-sizing: border-box;
+  }
+  .introduce_title{
+    font-size: 40px;
+    line-height: 45px;
+  }
+  .introduce_contain{
+      margin-top: 60px; 
+      padding: 0 90px;
+      box-sizing: border-box;
+  }
+  .introduce_contain_row{
+    box-sizing: border-box;
+    width: 540px;
+    height: 274px;
+    background-color: #fff;
+    margin-right: 60px;
+    margin-bottom: 60px;
+    box-shadow: 0 0  8px rgb(211, 210, 210); 
+    padding: 40px;
+  }
+  .introduce_contain_row_top{ 
+      padding: 0 95px;
+      box-sizing: border-box;
+  }
+  .introduce_contain_row_top_box{
+    font-size: 36px;
+    font-weight: bold;
+    color: #fff;  
+    width: 50px;
+    height: 50px;
+    background-color: #3296fa;
+    border-radius: 8px;
+  }
+.introduce_contain_row_title{
+    height: 50px;
+} 
+.introduce_contain_row_top_title{
+    font-size: 36px;
+    line-height: 48px;
+    margin-left: 24px;
+}
+.introduce_contain_row_bottom{
+    margin-top: 25px;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 300;
+    color: #272727;
+}
+.fl-w{
+    flex-wrap: wrap;
+}
+
+
+/* 公司历程 */
+.experience{
+    /* height: 940px; */
+      background-color: #FFF;
+      padding: 100px 260px;
+      box-sizing: border-box;
+}
+
+.experience_title{
+    font-size: 40px;
+    line-height: 45px;
+}
+.experience_contain{
+    height: 900px;
+    width:790px; 
+    margin: 0 auto;
+    margin-top:60px;
+}
+.experience_contain_row{
+    height: 250px;  
+    position: relative;
+}
+.experience_contain_row_sno{
+    position: absolute;
+    height: 100%;
+    width: 155px;
+    border-right:4px rgb(119, 119, 119) dashed;
+    font-size: 30px;
+    line-height: 48px;
+    font-weight: 400;
+    z-index: 0;
+    box-sizing: border-box;
+}
+.circular_contain{
+    padding-left: 120px; 
+}
+.circular{ 
+    position: absolute;
+    margin-left: 10px;
+    width: 48px;
+    height: 48px;
+    background-color: #3296FA;
+    border-radius: 48px;
+}
+.experience_contain_right{
+    /* position: absolute;  */ 
+    padding:  5px 80px;
+    box-sizing: border-box;
+}
+
+.experience_contain_right_title{
+    font-size: 36px;
+    font-weight: 500;
+}
+.experience_contain_right_text{ 
+    margin-top: 16px;
+    font-size: 22px;
+    line-height: 32px;
+    width: 550px;
+}

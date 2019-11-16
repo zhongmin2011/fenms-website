@@ -1,0 +1,139 @@
+.footer {
+  background-color: #30323F;
+  height: 371px; 
+}
+.fl-c{
+  flex-direction: column;
+}
+.js-c{
+  justify-content: center;
+}
+.al-c{
+  align-items: center;
+}
+.footer__item {
+  margin: 0 auto;
+  width: 1440px;
+  height: 360px; 
+  padding:60px 0;
+  box-sizing: border-box;
+}
+
+.footer__item-title {
+  width: 305px;
+  color: #FFFFFF;
+  position: relative;
+}
+.footer__item_bottom{
+  position: absolute;
+  bottom: 0;
+}
+.footer__item_top{
+  height:100px;
+}
+.h100{
+  height: 100%;
+}
+.footer__item-company {
+  display: block; 
+  color: #FFF;
+  line-height: 38px;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.al-a{
+  align-content: space-between; 
+}
+
+.footer__item-address {
+  display: block;
+  font-size: 16px;
+  margin-top: 16px;
+  line-height:26px ;
+  height:58px;
+  color: #FFF;
+}
+
+.footer__item-content {
+  color: #FFFFFF;
+}
+
+.footer__item-content-menu {
+  padding: 10px 0;
+  box-sizing: border-box;
+  margin-right: 66px;
+  width: 525px;
+  height: 100%;
+}
+
+.footer__item-menu {
+  font-size: 14px; 
+}
+
+.footer__item-menu-title {
+  color: #FFF;
+  display: block;
+  margin-bottom: 20px;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing:2px;
+}
+
+.footer__item-orderPhone {
+  text-decoration: none;
+  display: inline-block;
+  margin-bottom: 7px;
+  padding: 9px 28px;
+  border: 2px solid #FFFFFF;
+  border-radius: 4px;
+  font-size: 16px;
+  color: #FFFFFF;
+  box-sizing: border-box;
+}
+
+.footer__item-Phone { 
+  font-size: 28px; 
+  margin: 14px 0;
+}
+
+.footer__item-time {
+  font-size: 14px;
+}
+
+.footer__item-orcode {
+  margin-left: 20px;
+  width: 114px;
+  height: 114px;
+}
+
+.footer-bottom {
+  height:64px; 
+  background:rgba(48,48,54,1); 
+  font-size: 14px;
+  color: #FFF; 
+  box-sizing: border-box; 
+}
+span:first-child{
+  margin-top: 0;
+}
+.span_router{
+  margin-top: 5px;
+  font-size:16px;
+  text-decoration: none;
+}
+span{
+  font-size: 16px;
+  line-height: 30px;
+  opacity:0.5;
+  color: #FFF;
+  letter-spacing:2px;
+  margin-top: 12px;
+}
+.public_text{
+  font-size: 16px;
+  line-height: 24px;
+}
+.mg-t5{
+  margin-top:5px;
+}

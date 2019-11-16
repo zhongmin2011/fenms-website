@@ -1,0 +1,34 @@
+.contain{
+    height: 980px;
+    width: 100%;
+    padding: 100px 260px;
+    box-sizing: border-box;
+}
+.contain_main{
+    width: 700px;
+    height: 180px; 
+}
+.contain_main_top{
+    height: 20px;
+}
+.line{
+    width: 66px;
+    border-bottom: 2px #4FACFE solid;
+    height: 4px;
+}
+.datail{
+    font-size: 14px;
+    color: #626262;
+    margin-left: 16px;
+}
+.contain_main_title{
+    font-size: 50px;
+    color: #171063;
+    line-height: 90px;
+}
+.contain_main_text{
+    font-size: 22px;
+    color: #626262;
+    line-height: 30px;
+    text-align: center;
+}

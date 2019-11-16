@@ -1,0 +1,122 @@
+/* banner */
+.banner{
+  height: 680px;
+  width: 100%;  
+  background-image: url("../../assets/images/banner1.png");
+}
+.main{
+    width: 1400px;
+    height: 100%;
+    margin: 0 auto;
+}
+.main_text{
+    height:335px; 
+}
+img{
+   
+}
+.main_title{
+    margin-top: 5px;
+    font-size: 60px;
+    line-height: 85px;
+    color: white;
+}
+.main_text{
+    margin-top: 5px;
+    font-size: 34px;
+    line-height: 64px;
+    color: white;
+}
+.main_button button{
+    width: 120px;
+    height: 48px;
+    background: white;
+    color: #3296FA;
+    border: 0;
+    border-radius: 8px;
+    box-shadow: 0px 3px  8px rgb(133, 133, 133);
+}
+.main_button button:last-child{ 
+    background: #3296FA;
+    color: white;
+    margin-left: 60px;
+}
+
+/* 更新日志 */
+
+.w100{
+    width: 100%;
+}
+.js-e{
+    justify-content: flex-end;
+}
+.update{ 
+      background-color: #F7FBFE;
+      padding: 100px 260px;
+      box-sizing: border-box;
+}
+
+.update_title{
+    font-size: 40px;
+    line-height: 45px;
+    text-align: center;
+}
+.update_contain_fu{  
+    width:100%;  
+    margin-top:60px;  
+}
+.update_contain_title{ 
+    width: 155px;
+    font-size: 30px;
+    line-height: 48px;
+    font-weight: 400; 
+}
+.update_contain{ 
+    position: relative;
+}
+.line{
+    width: 24px;
+    height: 100%; 
+    position: absolute;
+    left: 0;
+    border-right:2.5px rgb(119, 119, 119) dashed;
+}
+.update_contain_row{ 
+    position: relative;
+} 
+.circular{  
+    width: 48px;
+    height: 48px;
+    background-color: #3296FA;
+    border-radius: 48px;
+}
+.update_circular_title{
+    margin-left: 24px;
+    font-size: 28px;
+    line-height: 45px;
+    font-weight: 500;
+} 
+.update_contain_bottom{    
+    width: 100%; 
+    padding-left: 200px;
+    box-sizing: border-box; 
+    font-size: 22px; 
+}
+.update_contain_bottom_text{
+    width: 1200px;
+    background-color:#fff ; 
+    height: 100%;
+    border-radius: 8px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.row_title{
+    height: 20px;
+    line-height: 32px;
+    color: #3296FA;
+}
+ul li{
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 500;
+}

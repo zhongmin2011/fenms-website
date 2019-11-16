@@ -1,0 +1,22 @@
+{
+  "name": "yanhui-homepage",
+  "version": "1.0.0",
+  "description": "My magnificent Nuxt.js project",
+  "author": "joel",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@lucky-joel/css-utils": "^1.0.0",
+    "element-ui": "^2.12.0",
+    "nuxt": "^2.0.0",
+    "vue-easy-slider": "^5.3.2"
+  },
+  "devDependencies": {
+    "babel-plugin-component": "^1.1.1"
+  }
+}

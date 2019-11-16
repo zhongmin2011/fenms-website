@@ -1,0 +1,78 @@
+ 
+.apply_contain{
+    /* height: 490px; */
+    padding:100px 0; 
+    box-sizing: border-box; 
+    background: linear-gradient(to top,#DCFAFD,#FFF)
+}
+.apply_contain_bg{
+    width: 800px;
+    padding: 0 50px 50px 50px;
+    background-color: #FFF;
+    margin: 0 auto;
+}
+.apply_contain_title{
+    font-size: 40px;
+    line-height: 45px; 
+    text-align: center;
+}
+span{
+    color: #2F5EED;
+}
+.apply_contain_row{
+    margin-top: 24px; 
+    
+}
+.apply_contain_row_text{
+    font-size: 16px; 
+    line-height: 24px;
+}
+.apply_contain_input{ 
+    padding: 10px 0;
+}
+.apply_contain_input:first-child{
+    margin-top: 14px; 
+}
+.apply_contain_input span{
+    color: red;
+    margin-right: 10px;
+}
+.row_text{
+    font-size: 16px;
+    line-height: 24px;
+}
+.input_text{
+    margin-top: 14px;
+    width: 375px;
+    height: 40px;
+    padding: 0 20px;
+    box-sizing: border-box;
+    font-size: 16px;
+    border-radius: 4px;
+    border:1px #A7A7A7 solid;
+}
+:-ms-input-placeholder{
+    font-size: 16px;
+    color: #A2A2A2;
+}
+textarea{
+    margin-top: 14px;
+    height: 120px;
+    width: 710px;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    border:1px #A7A7A7 solid;
+}
+.bottom_button{
+    margin-top: 42px;
+}
+.bottom_button button{
+    width: 200px;
+    height: 40px;
+    background-color: #53A7F8;
+    font-size: 16px;
+    color: #FFF;
+    border:0;
+    border-radius: 8px;
+}

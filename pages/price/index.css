@@ -1,0 +1,152 @@
+.contain{ 
+    width: 100%;
+    padding: 100px 260px;
+    box-sizing: border-box;
+}
+.contain_main{
+    margin:0 auto;
+    width: 700px; 
+}
+.js-a{
+    justify-content: space-around;
+}
+.contain_main_top{
+    height: 20px;
+}
+.line{
+    width: 66px;
+    border-bottom: 2px #4FACFE solid;
+    height: 4px;
+}
+.datail{
+    font-size: 14px;
+    color: #626262;
+    margin-left: 16px;
+}
+.contain_main_title{
+    font-size: 50px;
+    color: #171063;
+    line-height: 90px;
+}
+.contain_main_text{
+    font-size: 22px;
+    color: #626262;
+    line-height: 30px;
+    text-align: center;
+}
+
+.contain_bottom{
+    margin-top: 100px; 
+}
+
+
+.contain_bottom_row{
+  width: 400px; 
+  box-shadow: 0 0  8px rgb(211, 210, 210);
+}
+.row_text{
+    padding: 18px 20px;
+    width: 100%;
+    /* height: 100px; */
+    color: #fff;
+    box-sizing: border-box;
+    text-align: center;
+    background: linear-gradient(to right,#4A7EF6,#56AFF8);
+}
+.row_title{
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 42px;
+}
+.row_dateil{
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.row_contain{
+    padding: 30px;
+    box-sizing: border-box;
+}
+.row_pice{
+    border-bottom:1px #C4C4C4 solid;
+    /* height: 250px; */
+    padding: 0 60px;
+    box-sizing: border-box;
+    padding-bottom: 40px;
+}
+.price_icon{
+    font-size:25px
+}
+.price_title{
+    font-size:48px;
+    line-height:80px;
+    margin-left:10px;
+
+}
+.price_text{
+    font-size:25px;
+    height: 30px; 
+    margin-top: 30px;
+    margin-left: 6px; 
+}
+.row_contain input{
+    width: 210px;
+    height: 44px;
+    border:1px #A7A7A7 solid;
+    border-radius: 8px;
+}
+.row_contain button{
+    width: 120px;
+    height: 36px;
+    background-color: #4FACFE;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 0;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.price_detail{
+    color: #4FACFE;
+    font-size: 12px;
+    margin:0 auto;
+    margin-top: 10px;
+}
+
+.row_contain_text{
+    padding:30px 0;
+    border-bottom:1px #A7A7A7 solid;
+}
+.row_contain_text:last-child{
+    border:0;
+    padding-bottom: 0; 
+}
+.row_contain_text_datail{
+    font-size: 12px;
+    color: #A8A8A8;
+}
+.circular{
+    width: 10px;
+    height: 10px;
+    background-color: #4FACFE;
+    margin-right: 10px;
+    border-radius: 20px; 
+    margin-top: 3px;
+}
+ 
+ .opacity25{ 
+    opacity: 0.25;
+ }
+ ul li:first-child{
+     margin-top: 8px;
+ }
+ ul li{
+     font-size: 15px;
+     color: black;
+     padding:10px 0;
+ }
+ .row_contain_text_datail_li{
+    font-size: 15px; 
+     padding:16px 0;
+ }
+ 
