@@ -108,7 +108,7 @@
 
         <div class="contain_bottom_row ly fl-c">
           <div class="row_text ly fl-c">
-            <div class="row_title">企业业版</div>
+            <div class="row_title">企业版</div>
             <div class="row_dateil">适用于专业资产管理、成本管控等</div>
           </div>
           <div class="row_contain ly fl-c">
@@ -198,7 +198,7 @@
 
         <div class="contain_bottom_row ly fl-c">
           <div class="row_text ly fl-c">
-            <div class="row_title">企业版</div>
+            <div class="row_title">私有部署版</div>
             <div class="row_dateil">适合于本地私有化部署</div>
           </div>
           <div class="row_contain ly fl-c">

@@ -1,246 +1,151 @@
-
-.banner{
-  height: 680px;
-  width: 100%;  
-  background-image: url("../../assets/images/banner1.png");
-}
-.main{
-    width: 1400px;
-    height: 100%;
-    margin: 0 auto;
-}
- 
-.main_title{
-    margin-top: 5px;
-    font-size: 60px;
-    line-height: 85px;
-    color: white;
-}
-.main_text1{
-  width: 100%;
-}
-.main_text_datail{ 
-  width: 965px;
-  padding: 0 10px;
-  box-sizing: border-box;
-    margin-top: 5px;
-    font-size: 28px;
-    line-height: 40px;
-    text-align: center;
-    color: white;
-}
-.main_button{
-  margin-top:30px;
-}
-.main_button button{
-    width: 120px;
-    height: 48px;
-    background: white;
-    color: #3296FA;
-    border: 0;
-    border-radius: 8px;
-    box-shadow: 0px 3px  8px rgb(133, 133, 133);
-}
-.main_button button:last-child{ 
-    background: #3296FA;
-    color: white;
-    margin-left: 60px;
-}
-
-.fl-r {
-  flex-direction: row;
+ /* 公用 */
+.w1400{
+  width: 1400px;
+} 
+.mg-auto{
+  margin: 0 auto;
 }
 a {
   text-decoration: none;
-}
-.js-c {
-  justify-content: center;
-}
-.al-c {
-  align-items: center;
-}
-
-.main_text {
-  height: 235px; 
-  width: 660px;
-}
-.main {
-  width: 1440px;
-  margin: 0 auto;
-  height: 100%;
-}
-.line {
-  border-bottom: 2px #4facfe solid;
-  width: 66px;
-  height: 10px;
-}
-.en_text {
-  font-size: 14px;
-  color: #9b9b9b;
-  font-weight: 600;
-  margin-left: 20px;
-  line-height: 20px;
-}
-.text {
-  font-size: 22px;
-  color: #9b9b9b;
-  line-height: 28px;
-  margin-top: 20px;
-}
-.title {
-  color: #171063;
-  font-size: 50px;
-  line-height: 70px;
-}
+}  
 .fx-1{
   flex: 1;
 }
 .al-s {
   align-content: flex-start;
-}
-.w100 {
-  width: 100%;
-}
-.fl-c {
-  flex-direction: column;
-}
-.fl-r {
-  flex-direction: row;
-}
-.al-c-c {
-  align-content: center;
-}
-.js-c {
-  justify-content: center;
-}
+}  
 .js-s {
   justify-content: flex-start;
-}
-.js-b{
-  justify-content: space-between;
-}
-.swiper-slide {
-  height: 680px;
-  width: 100%;
-}
-.banner {
-  width: 100%;
-  height: 680px;
-  background: rgb(100, 114, 128);
-}
+} 
 .h100 {
   height: 100%;
-}
-.white {
-  color: #fff;
-}
+} 
+
 .blue {
   background-color: #3296fa;
-}
-
+} 
 
 .tu_img{
     width: 680px;
     height: 480px;
     background-color: #3296fa;
   }
-  .w1400{
-    width: 1400px;
-  }
-  .mian_contain_title{
-    width:720px;
-    padding:140px 190px 150px 140px ;
-    box-sizing: border-box; 
-  }
-  .mg-auto{
-    margin: 0 auto;
-  }
-  .one_title {
-    font-size: 40px;
-    color: #272727;
-    margin-top: 45px;
-  }
  
-  .mg-t {
-    margin-top: 40px;
-  }
-  .w50 {
-    width: 50%;
-  }
-  .mian_contain_one {
+ /* 轮播图 */
+.slide__main{
     width: 1400px;
-  }
-  .mian_contain { 
-    padding: 110px 260px;
-    box-sizing: border-box;
-    background-color: #F7FBFE;
-  }
-  .title_mian {
-    font-size: 40px;
-    line-height: 45px;
-  }
-  span {
-    font-size: 20px;
-    line-height: 32px;
-    color: #272727; 
-  } 
-  .main_text {
-    height: 235px; 
-    width: 660px;
-  }
-  .main {
-    width: 1440px;
-    margin: 0 auto;
     height: 100%;
-  }
-  .line {
-    border-bottom: 2px #4facfe solid;
-    width: 66px;
-    height: 10px;
-  }
-  .mg-t40{
-      margin-top: 40px;
-  }
-  .en_text {
-    font-size: 14px;
-    color: #9b9b9b;
-    font-weight: 600;
-    margin-left: 20px;
-    line-height: 20px;
-  }
-  .text {
-    font-size: 22px;
-    color: #9b9b9b;
-    line-height: 28px;
-    margin-top: 20px;
-  }
-  .title {
-    color: #171063;
-    font-size: 50px;
-    line-height: 70px;
-  }
+    margin: 0 auto;
+}
+.slide__main__content{
+  width: 100%;
+}
+.slide__main__content__title{
+    margin-top: 5px;
+    font-size: 60px;
+    line-height: 85px;
+    color: white;
+}
 
-  /* 系统模块 */
-.sys{ 
+.slide__main__content__des{ 
+  width: 965px;
+  padding: 0 10px;
+  box-sizing: border-box;
+    margin-top: 5px;
+    font-size: 28px;
+    line-height: 40px;
+    /* text-align: center; */
+    color: white;
+}
+.slide__main__content__btn{
+  margin-top:30px;
+}
+.slide__main__content__btn button{
+    width: 120px;
+    height: 48px;
+    background: rgb(255, 255, 255);
+    color: #3296FA;
+    border: 0;
+    border-radius: 8px;
+    box-shadow: 0px 3px  8px rgb(133, 133, 133);
+} 
+.slide__main__content__btn button:last-child{ 
+    background: #3296FA;
+    color: white;
+    margin-left: 60px;
+}
+
+
+/* 解决方案 */
+.product__content{   
+  padding:100px 260px 100px 260px ;
+  box-sizing: border-box; 
+  background-color: #F7FBFE; 
+}
+.w1400{
+  width: 1400px;
+}
+.product__content__title {
+  font-size: 40px;
+  line-height: 45px;
+}
+.product__content__des {
+  font-size: 20px;
+  line-height: 32px;
+  color: #272727; 
+} 
+.product__content__row {
+  width: 100%;
+}
+.mg-t45{
+  margin-top:45px
+}
+.product__item{
+  padding-top: 40px;
+}
+.product__content__row__right{
+  padding:130px 170px 130px 140px;
+  box-sizing: border-box;
+  
+}
+
+
+/* 系统模块 */
+.sys__content{
   padding: 100px 260px;
   box-sizing: border-box;
+
 }
-.sys_title{
+.sys__content__title{
   font-size: 40px;
-  line-height: 45px; 
+  line-height: 45px;
+}
+.sys__content__des{
+  font-size: 20px;
+  line-height: 32px;
+  color: #272727; 
 }
 
 
-/* 产品解决痛点 */
-.advantage{
+/* 解决痛点 */
+.advantage__content{
   padding: 100px 260px;
   box-sizing: border-box;
   background-color: #F7FBFE;
 }
-.sys_contain{
+.advantage__content__title{
+  font-size: 40px;
+  line-height: 45px;
+}
+.advantage__content__des{
+  font-size: 20px;
+  line-height: 32px;
+  color: #272727;
+}
+.mg-t60{
   margin-top: 60px;
 }
-.sys_contain_row{
+.advantage__content__row{
   height: 340px;
   width: 320px;
   background-color: #fff;
@@ -248,7 +153,7 @@ a {
   padding: 46px 40px;
   box-sizing: border-box;
 }
-.sys_contain_row_text_title{
+.advantage__contain__row__text__title{
   font-size: 23px;
   line-height: 30px;
   padding-top: 20px;
@@ -257,18 +162,18 @@ a {
 .f-l{
   flex: 1;
 }
-.sys_contain_row_text_text{ 
+.advantage__contain__row__text_des{ 
   margin-top: 20px;
   font-size: 15px;
   line-height: 24px;
   color: #9B9B9B;
   text-align: center;
 }
-.sys_buttom{ 
+.advantage__btn{ 
   margin-top: 60px;
 
 }
-.sys_buttom button{
+.advantage__btn button{
   width: 120px;
   height: 48px; 
   background-color: #fff;
@@ -277,8 +182,17 @@ a {
   border-radius: 8px;
   box-shadow: 0px 3px  8px rgb(180, 180, 180);
 }
-.sys_buttom button:last-child{ 
+.advantage__btn button:last-child{ 
   background-color:  #3296fa;
   color:#fff;
   margin-left: 60px;
 }
+
+ 
+ 
+ 
+
+ 
+ 
+
+
